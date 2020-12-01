@@ -32,7 +32,8 @@ class CommentController {
   async createComment(req, res) {
     const { body } = req;
     const { ideaId } = req.params;
-    const createdComment = await _commetService.createdComment(body, ideaId);
+    const { _id: userId } = req.user;
+    const createdComment = await _commetService.createComment(body, ideaId, userId);
     return res.status(201).send(createdComment);
   }
 }
