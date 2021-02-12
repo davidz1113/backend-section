@@ -3,7 +3,7 @@ node_js:
   - stable
 deploy:
   provider: heroku
-  api_key: cf9b9ad0-3565-438b-b2df-1ac353df9cb9
+  api_key: $HEROKU_KEY
   app: shareyourideas-nodejs-andrew
   on:
     repo: davidz1113/backend-section
