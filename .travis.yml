@@ -3,6 +3,8 @@ node_js:
   - stable
 deploy:
   provider: heroku
-  app: shareyourideas-nodejs-andrew
   api_key:
     secure: YSnHLFv9DdoVqYm/vJBFn+gQtuu6/vhvPnwAn571lN0C3D7YCjNOEb+yR9EvCXfyhJ6yJmxDDXKinAiHYyIlq0C1BXWPC2Pvny4L+4/87ldZPas0dy2P46RvPnbTGzPQItSYofxQsE5AUt/PxvypNKuGOL5I5DgYqs+8bxfgKrm7oPFFh+nuxaG9Y56lbYqSUlP8u8SjSUMG9bb+bVX0z3hGedT9V5AS2UMb3PRWC5PQc3iYlzBza3WjKqNeT07A+DouaPqc/Eg+Owiqj5pCAjAiBHZKClkac+8RgKfMYl/e6woSnTZiQxrJFieQZwdS3vbwXAOSwBwf+ynliBv4zx4dQBhpi/DuqQavmyA7v3PJCUT+Gkl7w7wT9ML2niVepqpnydUCTkEevPcsxzUlKGiGuFr1ciuZInzpJg2B+vjRKQY6p1Sas13yXBaXOfPH/AyNsb6CJF1hzg+ZlH2JucXgDTPPSIXoUNUr04m2FOzIWpRTeMcnDG7mLtJ2YZ+K97EOKIuX8kl3FJuUx8R7GhiMFF3KT4savGl9sMlgnmpe3usTHPQGWSUiM2knN+uCwIkG55EGdSqaGkcR/sBehSNvMM8p9DqvsoHD+2+pqWTyFLS+sIKwJB40snOeBAX4JI1sNiNmwIIRXLK5Ee5DcEVaUR5xiraxJhPjdeoldKY=
+  app: shareyourideas-nodejs-andrew
+  on:
+    repo: davidz1113/backend-section
