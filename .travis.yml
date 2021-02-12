@@ -8,3 +8,4 @@ deploy:
   app: shareyourideas-nodejs-andrew
   on:
     repo: davidz1113/backend-section
+  skip_cleanup: true
